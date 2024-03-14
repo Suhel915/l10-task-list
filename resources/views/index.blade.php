@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', $task->title )
+@section('title',"All Task" )
 @section('content')
 <!-- @if(count($tasks)) -->
     @forelse($tasks as $task)
